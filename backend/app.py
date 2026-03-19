@@ -23,10 +23,10 @@ app.add_middleware(
 class PatientData(BaseModel):
     insurance_type: str
     prev_readmit_group: int
-    los_group: int
+    los_group: str
     risk_score_bin: int
     dc_location: str
-    primary_dx_tier: int
+    primary_dx_tier: str
     age_bin: int
 
 
